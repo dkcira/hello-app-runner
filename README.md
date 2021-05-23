@@ -7,6 +7,15 @@ You can use this repo to automatically build and deploy or use pre-built images 
 
 You can read about AWS App Runner in the [launch blog](https://aws.amazon.com/blogs/containers/introducing-aws-app-runner/)
 
+
+## My notes
+
+Before running directly on macos x install the following. I think they are needed for Django. NB it will install a lot of stuff.
+
+```bash
+brew install cairo pango gdk-pixbuf libffi
+```
+
 ## Deploy to App Runner
 
 If you want to deploy this container make sure you have the latest release of the [`awscli`](https://github.com/aws/aws-cli) and run
